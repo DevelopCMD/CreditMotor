@@ -9,42 +9,13 @@ import xml.etree.ElementTree as ET
 from PIL import Image, ImageDraw, ImageFont
 
 
-# ============================================================
-# ENDING CREDITS GENERATOR
-# ============================================================
-#
-# XML elements supported:
-#
-# <settings width="1920" height="1080" fps="60" scroll_speed="80"/>
-#
-# <heading>CAST</heading>
-# <text>Some regular centered text.</text>
-# <actor role="Director">John Smith</actor>
-#
-# <image src="images/logo.png" height="220"/>
-#
-# <image_row>
-#     <image src="images/python.png" height="120"/>
-#     <image src="images/ffmpeg.png" height="120"/>
-# </image_row>
-#
-# <text_row>
-#     <text>Programming</text>
-#     <text>Rollerblade</text>
-# </text_row>
-#
-# <spacer height="100"/>
-#
-# ============================================================
-
-
 # -------------------------
 # CONFIGURATION
 # -------------------------
 
 # Change these to customize the appearance.
-FONT_PATH = r"M:\CreditMotor\NotoSans-Regular.ttf"
-FONT_BOLD_PATH = r"M:\CreditMotor\NotoSans-Bold.ttf"
+FONT_PATH = r"NotoSans-Regular.ttf"
+FONT_BOLD_PATH = r"NotoSans-Bold.ttf"
 
 HEADING_SIZE = 64
 TEXT_SIZE = 36
