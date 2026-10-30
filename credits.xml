@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<credits>
+    <!-- Video settings -->
+    <settings
+        width="1920"
+        height="1080"
+        fps="60"
+        scroll_speed="200"
+    />
+	
+	<heading>Cast</heading>
+
+    <actor role="Bladey">Brian</actor>
+    <actor role="Posy">Michiel De Boer</actor>
+
+    <heading>Crew</heading>
+
+    <actor role="Director">Rollerblade</actor>
+	<actor role="Co-Director">Störmshield</actor>
+    <actor role="Editor">Rollerblade</actor>
+    <actor role="Character Designer">Störmshield</actor>
+	<actor role="Helper">Störmshield</actor>
+	
+	<heading>Music</heading>
+	
+	<text>Heading Home - Rollerblade</text>
+	<text>7th Floor Tango - Silent Partner</text>
+	
+    <heading>Production</heading>
+
+    <text>Made with</text>
+
+    <!-- Logo height is independently configurable -->
+    <image_row>
+		<image src="images/VegasPro.png" height="90" />
+        <image src="images/PaintNet.png" height="90" />
+        <image src="images/TurboWarp.png" height="90" />
+    </image_row>
+
+    <text>Animation services by</text>
+	<image src="images/BSAnimation.png" height="100" />
+
+    <!-- Text rows are horizontally distributed -->
+	<text>© 2021-2026 BS Media </text>
+	<text>I HATE, Is That Even True?, and all other related properties</text>
+	<text>are all protected by copyright under BS Media and BS Visual Management</text>
+	
+	<text>All content shown in this video is under fair use.</text>
+	
+
+
+
+</credits>

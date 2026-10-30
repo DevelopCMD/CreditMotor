@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<credits>
+    <!-- Video settings -->
+    <settings
+        width="1920"
+        height="1080"
+        fps="60"
+        scroll_speed="80"
+    />
+
+    <heading>CAST</heading>
+
+    <actor role="The Hero">John Smith</actor>
+    <actor role="The Villain">Jane Doe</actor>
+    <actor role="Sidekick">Alex Johnson</actor>
+
+    <heading>CREW</heading>
+
+    <actor role="Director">John Smith</actor>
+    <actor role="Editor">Alex Johnson</actor>
+    <actor role="Music">Jane Doe</actor>
+
+    <heading>PRODUCTION TECHNOLOGIES</heading>
+
+    <text>Made using:</text>
+
+    <!-- Logo height is independently configurable -->
+    <image_row>
+        <image src="images/python.png" height="120" />
+        <image src="images/ffmpeg.png" height="120" />
+        <image src="images/pyglet.png" height="120" />
+        <image src="images/blender.png" height="120" />
+    </image_row>
+
+    <heading>TEAM</heading>
+
+    <!-- Text rows are horizontally distributed -->
+    <text_row>
+        <text>Programming</text>
+        <text>Rollerblade</text>
+    </text_row>
+
+    <text_row>
+        <text>Art</text>
+        <text>Alex</text>
+    </text_row>
+
+    <text_row>
+        <text>Music</text>
+        <text>Jane</text>
+    </text_row>
+
+    <spacer height="100" />
+
+    <image src="images/company_logo.png" height="250" />
+
+    <heading>SPECIAL THANKS</heading>
+
+    <text>Thanks to everyone who helped make this project possible!</text>
+
+    <spacer height="150" />
+
+    <heading>THE END</heading>
+</credits>
